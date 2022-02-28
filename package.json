@@ -1,7 +1,30 @@
 {
   "dependencies": {
     "apollo-server": "^3.6.2",
+    "bcryptjs": "^2.4.3",
     "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.0"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "socialapp",
+  "description": "This is a social media app created by following along the following tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Helloiain/SocialApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Helloiain/SocialApp/issues"
+  },
+  "homepage": "https://github.com/Helloiain/SocialApp#readme"
 }
